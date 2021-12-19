@@ -1,0 +1,32 @@
+{
+  "name": "create-mcinar-app",
+  "description": "A simple template for further repositories.",
+  "version": "0.1.2",
+  "private": false,
+  "bin": {
+    "create-mcinar-app": "./create-app.js"
+  },
+  "author": "Mehmet Cinar",
+  "license": "MIT",
+  "homepage": "https://github.com/mehmetcinarpro/create-mcinar-app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehmetcinarpro/create-mcinar-app/issues.git"
+  },
+  "bugs": "https://github.com/mehmetcinarpro/create-mcinar-app/issues",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7"
+  }
+}
