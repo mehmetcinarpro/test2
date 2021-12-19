@@ -1,7 +1,7 @@
 {
   "name": "create-mcinar-app",
   "description": "A simple template for further repositories.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "bin": {
     "create-mcinar-app": "./create-app.js"
