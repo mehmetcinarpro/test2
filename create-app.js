@@ -4,7 +4,7 @@
 
 const path = require('path');
 const util = require('util');
-const packageJson = require('../package.json');
+//const packageJson = require('../package.json');
 const fs = require('fs');
 const exec = util.promisify(require('child_process').exec);
 
@@ -60,11 +60,11 @@ async function setup() {
 
     await runCmd('npx rimraf ./.git');
 
-    fs.unlinkSync(path.join(appPath, 'LICENSE.MD'));
+    //fs.unlinkSync(path.join(appPath, 'LICENSE.MD'));
     //fs.rmdirSync(path.join(appPath, 'bin'), { recursive: true });
-    fs.unlinkSync(path.join(appPath, 'package.json'));
+    //fs.unlinkSync(path.join(appPath, 'package.json'));
 
-    buildPackageJson(packageJson, folderName);
+    //buildPackageJson(packageJson, folderName);
 
     console.log(
       '\x1b[32m',
