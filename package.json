@@ -1,6 +1,9 @@
 {
   "name": "create-mcinar-app",
   "private": true,
+  "bin": {
+    "create-mcinar-app": "./create-app.js"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
